@@ -9,6 +9,82 @@
   <link rel="stylesheet" href="css/contact.css" />
 </head>
 <body>
+  <heder class="header">
+  
+    <nav class="header-nav-sm" id="header-nav-sm">
+      <ul>
+        <!--スマホ版のヘッダーナビ-->
+        <li><a href="index.html">ホーム</a> </li>
+        <li><a href="service.html">事業内容</a></li>
+        <li><a href="news.html">ニュース</a></li>
+        <li><a href="blog.html">社員ブログ</a></li>
+        <li><a href="company.html">会社概要</a></li>
+        <li><a href="recruit.html">採用情報</a></li>
+        <li><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  
+  
+  
+  
+  
+  
+    <div class="header-logo" id="header-logo">
+      <img src="img/logo.png">
+    </div>
+  
+  
+  
+  
+    <div class="hamburger" id="hamburger">
+      <!--スマホ版のハンバーガーメニュー-->
+      <span class="hamburger-top"></span>
+      <span class="hamburger-middle"></span>
+      <span class="hamburger-bottom"></span>
+    </div>
+  
+  
+  
+  
+  
+    <nav class="header-nav">
+      <!--パソコン用の幅のヘッダーナビ-->
+      <ul class="header-nav-list">
+        <li class="header-nav-item"><a href="index.html">ホーム</a></li>
+        <li class="header-nav-item"><a href="service.html">事業内容</a></li>
+        <li class="header-nav-item"><a href="news.html">ニュース</a></li>
+        <li class="header-nav-item"><a href="blog.html">社員ブログ</a></li>
+        <li class="header-nav-item"><a href="company.html">会社概要</a></li>
+        <li class="header-nav-item"><a href="recruit.html">採用情報</a></li>
+        <li class="header-nav-item"><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </heder>
+  <div class="contact">
+    <h2>お問い合わせ</h2>
+  </div>
+  <from class="form" name="contact" method="post">
+    <div class="form-item">
+      <p class="form-item-label">会社名</p>
+      <input type="text" name="company-name"  class="form-item-input">
+
+    </div>
+    <div class="form-item">
+      <p class="form-item-label" >お名前<span>*</span></p>
+      <input type="text" name="name"  class="form-item-input" required >
+
+    </div>
+    <div class="form-item">
+      <p class="form-item-label">メールアドレス<span>*</span></p>
+      <input type="text"  name="mail"  class="form-item-input" required >
+    </div>
+    <div class="form-item">
+      <p class="form-item-label">お問い合わせ内容<span>*</span></p>
+      <textarea name="textarea"  class="form-item-textarea" required ></textarea>
+    </div>
+    <input type="submit" class="form-btn" value="お申し込み">
+
+  </from>
   <script src="js/main.js"></script>
 </body>
 </html>

@@ -1,9 +1,8 @@
 * {
   margin: 0px;
   padding: 0px;
-  outline: 1px solid red !important;
+ 
 }
-
 
 .header {
   position: fixed;
@@ -50,8 +49,10 @@
 
 
 .header-nav-sm ul li {
-  margin-bottom: 60px;
+
   list-style-type: none;
+  margin-bottom: 60px;
+
 
 
 
@@ -59,7 +60,7 @@
 
 .header-nav-sm ul li a {
   text-decoration: none;
-  color:blue;
+  color: blue;
 }
 
 

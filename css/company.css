@@ -1,3 +1,9 @@
+* {
+  margin: 0px;
+  padding: 0px;
+   
+  
+}
 
 
 .header {
@@ -54,7 +60,7 @@
 
 .header-nav-sm ul li a {
   text-decoration: none;
-  color:blue;
+  color: blue;
 }
 
 
@@ -185,6 +191,8 @@
 
 }
 
+
+
 .company {
   width: 100%;
   position: relative;
@@ -208,31 +216,148 @@
 
 .company-contents{
   width: 84%;
-  margin: 60px auto;
+  margin: 80px auto;
 }
 
-.company-contents tr{
- width:100%;
-  
-  padding:20px 40px;
-  
+.company-contents p{
+ 
+ 
+  font-size:18px;
+  padding:20px 0px;
   border-top:1px solid black;
-  
 }
 
-.company-contents tr:last-child{
-
+.company-contents p:nth-of-type(6){
+  border-bottom:1px solid black;
 }
 
-.company-contents tr td{
-    width:70%;
-     border-top: 1px solid black;
-     
-
-}
-
-.company-contents tr th{
-  
+.span1{
+  display:inline-block;
   width:30%;
-  border-top:1px solid black;
+  text-align:center;
+  font-weight: bold;
 }
+
+.span2{
+  width:70%;
+  display: inline-block;
+  
+}
+
+.contact {
+  margin-top: 60px;
+  width: 100%;
+  background-color: #F0F0F0;
+  text-align: center;
+  padding: 70px 0px;
+}
+
+.contact-contents h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.contact-contents p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.contact-btn {
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  background-color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.contact-btn:hover {
+  opacity: 0.6;
+}
+
+.footer {
+  width: 100%;
+  background-color: black;
+
+  color: white;
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  height: 60px;
+
+}
+
+
+.footer-nav {
+  width: 60%;
+  margin-left: 100px;
+  text-align: center;
+  padding-left: 80px;
+}
+
+.footer-nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 10px;
+  width: 100%;
+  align-items: center;
+
+
+}
+
+.footer-nav-item {
+  list-style: none;
+  margin-right: 2%;
+
+  border-right: 1px solid white;
+  width: 10%;
+
+}
+
+.footer-nav-item:nth-of-type(7) {
+  width: 15%;
+}
+
+.footer-nav-item a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+
+}
+
+.footer small {
+  display: block;
+  margin-left: 30px;
+  width: 35%;
+  padding-left: 30px;
+}
+
+@media screen and (max-width:768px) {
+  .footer {
+    height: 220px;
+
+
+  }
+
+  .footer-nav {
+    padding-left: 0px;
+  }
+
+
+  .footer-nav-item {
+    width: 100%;
+  }
+
+
+  .footer-nav-item:nth-of-type(7) {
+    width: 100%;
+  }
+
+
+}
+
