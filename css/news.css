@@ -211,6 +211,9 @@
 
 }
 
+
+
+
 .news-contents{
   width:80%;
   margin:60px auto;
@@ -235,6 +238,15 @@
     height:20px;
     line-height:20px;
     padding:6px 0px;
+  }
+
+  .news{
+    height:400px;
+
+  }
+
+  .news img{
+    height:400px;
   }
 }
 
