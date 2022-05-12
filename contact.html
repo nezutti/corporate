@@ -63,7 +63,7 @@
   <div class="contact">
     <h2>お問い合わせ</h2>
   </div>
-  <from class="form" name="contact" method="post">
+  <form class="form" name="contact" method="post">
     <div class="form-item">
       <p class="form-item-label">会社名</p>
       <input type="text" name="company-name"  class="form-item-input">
@@ -76,7 +76,7 @@
     </div>
     <div class="form-item">
       <p class="form-item-label">メールアドレス<span>*</span></p>
-      <input type="text"  name="mail"  class="form-item-input" required >
+      <input type="text"  name="mail"  class="form-item-input" pattern=".@" title="メールアドレスに@を含めてください" required >
     </div>
     <div class="form-item">
       <p class="form-item-label">お問い合わせ内容<span>*</span></p>
@@ -84,7 +84,7 @@
     </div>
     <input type="submit" class="form-btn" value="お申し込み">
 
-  </from>
+  </form>
   <script src="js/main.js"></script>
 </body>
 </html>

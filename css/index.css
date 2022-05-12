@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+ 
 
 }
 
@@ -196,23 +197,14 @@
 .home{
   
   position:relative;
+  height:700px;
+  background:url("../img/mv.png"),no-repeat,center/cover;
   
  
   width:100%;
 }
 
-.home-photo{
-  width:100%;
-  height:700px;
-  
-}
 
-
-.home-photo img{
-  width:100%;
-  height:700px;
-
-}
 
 .home-title{
   position:absolute;
@@ -357,7 +349,7 @@
   padding-bottom:5px;
   font-size:15px;
   height:30%;
-  margin-top:20px;
+  margin-bottom:20px;
   
 
 }
